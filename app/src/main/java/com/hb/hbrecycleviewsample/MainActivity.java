@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<Employees> employeeList = new ArrayList<>();
-        for(int i=0; i<10; i++){
+        for(int i=0; i<20; i++){
             Employees employees = new Employees();
             employees.setEmployeName("Emp "+(i+1));
             employeeList.add(employees);
